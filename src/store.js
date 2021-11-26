@@ -12,7 +12,7 @@ import {
 } from "./reducers/userReducers";
 import {
   taskCreateReducer,
-  taskListReducer,
+  taskListReducer
 } from "./reducers/taskReducers";
 
 const reducer = combineReducers({
@@ -21,7 +21,7 @@ const reducer = combineReducers({
   userList: userListReducer,
 
   taskList: taskListReducer,
-  taskCreate: taskCreateReducer,
+  taskCreate: taskCreateReducer
 });
 
 const userInfofromStorage =
